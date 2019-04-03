@@ -1,0 +1,15 @@
+{
+  "name": "kariops-jenkinsx-demo",
+  "version": "0.1.0",
+  "description": "A demo for Jenkins X", 
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kairops/front-reference-static.git"
+  },
+  "author": "KairosDS Devops Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kairops/front-reference-static/issues"
+  }
+}
