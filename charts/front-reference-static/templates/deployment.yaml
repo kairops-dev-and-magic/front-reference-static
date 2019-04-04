@@ -32,6 +32,7 @@ spec:
           successThreshold: {{ .Values.livenessProbe.successThreshold }}
           timeoutSeconds: {{ .Values.livenessProbe.timeoutSeconds }}
         readinessProbe:
+          initialDelaySeconds: {{ .Values.readinessProbe.initialDelaySeconds }}
           httpGet:
             path: {{ .Values.probePath }}
             port: {{ .Values.service.internalPort }}
