@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A demo for Jenkins X", 
   "main": "index.js",
+  "scripts": {
+    "test": "echo 'success'"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:kairops/front-reference-static.git"
